@@ -1,0 +1,312 @@
+body{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+/* start navbar */
+body #row-1{
+    justify-content: center;
+}
+body .navbar{
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px;
+}
+body .container-flued {
+    
+    width: 100%;
+    background: black;
+  background: linear-gradient(to right , rgb(133, 12, 12) , rgb(83, 83, 83) ,rgb(0, 0, 0) ) 
+
+}
+body .container-flued #navbarScroll ul li {
+    padding: 0px;
+    margin: 0px 60px;
+}
+
+body .navbar a{
+    margin: 0px 0px;
+    color: rgb(255, 255, 255) !important;
+}
+
+body .navbar .dropdown-menu{
+    background: rgb(85, 1, 1) !important;
+} 
+body .navbar .navbar-nav a:hover{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(82, 2, 2);
+    color: blanchedalmond;
+    background: black;
+}
+/* end navbar */
+
+/* start body */
+
+/* start About */
+body #body {
+    width: 80%;
+    padding: 30px 0px ;
+
+    height: auto;
+}
+body #body .profile{
+    text-align: center;
+}
+ h1{
+   padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(48, 48, 48);
+
+}
+
+ .hr{
+     border: 0.5px solid rgb(58, 2, 2) ;
+    width: 100%;
+    height: 3px;
+    margin:10px 0px;
+    background: linear-gradient(to left, red, green, blue);
+    margin: auto;
+}
+body #carouselExampleIndicators{
+    width: 100%;
+    height: 450px;
+}
+body #carouselExampleIndicators img{
+     width: 100%;
+    height: 450px;
+}
+body .logo{
+    padding: 0px 20px;
+    width: 100%;
+    margin-top: 40px;
+    height:550px ;
+}
+body .logo img{
+    width: 100%;
+    height: 100%;
+}
+body .contact{
+    justify-content: center;
+    padding: 0px 20px;
+    width: 100%;
+    margin: 20px 0px;  
+    height:auto ;
+}
+body .contact h1{
+    display: inline;
+}
+/* end About */
+
+/* start Gallary */
+
+#Gallary{
+    text-align: center;
+    height: auto;
+    width: 100% ;
+}
+
+body .row #Gallary #myTab{
+    margin: 10px 0px;
+    justify-content: space-around;
+    width: 30%;
+    margin: auto;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    background: linear-gradient(to right , rgb(133, 12, 12) , rgb(83, 83, 83) ,rgb(0, 0, 0) )
+}
+body .row #Gallary .Gallary{
+    margin: 10px 0px;
+    width: 100%;
+    height: auto;
+    
+}
+body .row #Gallary .nav-link{
+    color: rgb(255, 255, 255);
+}
+.nav-tabs .nav-link.active{
+    border-radius: 10px;
+    background-color: rgb(77, 77, 77);
+    color:rgb(0, 0, 0) ;
+}
+body .row #Gallary .Gallary .tab-content{
+    margin-top: 10px;
+}
+body .row #Gallary .Gallary .tab-content img{
+    opacity: 0.6;
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+body .row #Gallary .Gallary .tab-content img:hover{
+    opacity: 1;
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 30%;
+    transition: 1s;
+}
+/* end Gallary */
+
+/* start Contact-us */
+#Contact-us {
+
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100% ;
+
+}
+#Contact-us h1{
+    text-align: center;
+}
+
+#Contact-us .Book{
+    width: 100%;
+    margin: 20px 0px;
+    height: 350px;
+
+}
+
+
+#Contact-us .Book h2{
+    margin: 10px 0px;
+}
+
+
+#Contact-us .Book input{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 0px;
+    background: rgb(75, 75, 75);
+}
+#Contact-us .Book input:hover{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 0px;
+    background: rgb(133, 12, 12)
+}
+#Contact-us .Book button{
+    margin: 20px 0px;
+    padding: 10px;
+    background: black;
+    color: blanchedalmond;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+#Contact-us .Book button:hover{
+    
+    margin: 20px 0px;
+    padding: 10px;
+    background: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 5px 5px grey;
+}
+#Contact-us .position{
+    width: 100%;
+    margin: 20px 0px;
+    height: 350px;
+
+}
+#Contact-us .position img{
+    width: 100%;
+    height: 100%;
+}
+
+/* end Contact-us */
+
+
+ /* start footer */
+ #footer{
+     
+     height: auto;
+     width: 100%;
+     background: linear-gradient(to right , rgb(133, 12, 12) , rgb(83, 83, 83) ,rgb(0, 0, 0) ) 
+ }
+
+ #footer .container{
+     background: rgb(109, 107, 107);
+     height: auto;
+     border-right: 20px solid white;
+     border-left: 20px solid white;
+ }
+ #footer .container h3{
+     margin-top: 40px;
+ }
+ #footer .container p{
+     color: black;
+     font-size: medium;
+ }
+ #footer .container .ABOUT{
+
+     height: 100%;
+     width: 100%;
+ }
+ 
+ #footer .container .CATEGORIES{
+
+     height: 100%;
+     width: 100%
+ }
+ #footer .container  ul{
+     list-style-type: none;
+ }
+ #footer .container   a{
+     text-decoration: none;
+     color: black;
+ }
+
+ #footer .container .QUICK-LINKS{
+
+     height: 100%;
+     width: 100%
+ }
+ #footer .hr{
+     width: 100%;
+     height: 3px;
+     background: rgb(49, 49, 49);
+     border: 0.5px solid rgb(109, 107, 107);
+ }
+ #footer .container a:hover{
+     color: rgb(9, 61, 110);
+ }
+ #footer .container .end-footer{
+    height: auto;
+    width: 100%;
+
+ }
+ #footer .container .end-footer .row{
+     justify-content: space-around;
+ }
+ 
+ #footer .container .para{
+
+    padding: 0px 0px;
+    width: 100%;
+    margin: 20px 0px;
+    height:40px ;
+ }
+ #footer .container .logo-footer{
+    padding: 0px 0px;
+    width: 100%;
+    margin: 20px 0px;
+    height:40px ;
+
+ }
+ #footer .container .logo-footer img{
+     width: 30px;
+     margin-left: 10px;
+ }
+ /* end footer */
+
+/* end body */
